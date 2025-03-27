@@ -10,7 +10,7 @@ function App() {
     <>
       <h1>Vite + React</h1>
       <Persion></Persion>
-      <St></St>
+      <St name="nj" age="23" score="99"></St>
       <Dev></Dev>
       <Device name="Laptop" price="55"></Device>
       <Device name="Mobile" price="19"></Device>
@@ -22,15 +22,17 @@ function Persion() {
   const age = 23;
   return <h3>I am a person with age: {age}</h3>;
 }
-function St() {
+function St({name, score}) {
+  console.log(name,score);
   return (
     <div className="student">
       <h3>Ok</h3>
-      <p>Name</p>
+      <p>Name: {name} </p>
       <p>Age</p>
     </div>
   );
 }
+
 
 function Device(props){
   console.log(props)
