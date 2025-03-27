@@ -3,10 +3,19 @@ import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
 import "./App.css";
 import Todo from "./Todo";
+import Actor from "./Actor";
+import Singer from "./singer";
 
 function App() {
-  const [count, setCount] = useState(0);
-
+  const actors =[
+    'tamim','sakib','miner'
+  ]
+  const sing =[
+    {id: 1,  name: 'dr, mahfuzur rahman', age:68},
+    {id: 2,  name: 'Hero alam', age:19},
+    {id: 3,  name: 'miner molom' , age:69},
+    {id: 4,  name: 'shamim kolom', age:1920},
+  ]
   return (
     <>
       <h1>Vite + React</h1>
@@ -18,6 +27,13 @@ function App() {
       <Todo task="learn react" isDone={true}></Todo>
       <Todo task="explore react" isDone={false}></Todo>
       <Todo task="try JSX" isDone={true}></Todo>
+      <Actor name={"actor name"}></Actor>
+      {
+        actors.map(actor=><Actor name={actor}></Actor>)
+      }
+      {
+        sing.map(s=><Singer singer={s} ></Singer>)
+      }
     </>
   );
 }
