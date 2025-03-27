@@ -2,6 +2,7 @@ import { useState } from "react";
 import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
 import "./App.css";
+import Todo from "./Todo";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -14,6 +15,9 @@ function App() {
       <Dev></Dev>
       <Device name="Laptop" price="55"></Device>
       <Device name="Mobile" price="19"></Device>
+      <Todo task="learn react" isDone={true}></Todo>
+      <Todo task="explore react" isDone={false}></Todo>
+      <Todo task="try JSX" isDone={true}></Todo>
     </>
   );
 }
@@ -22,8 +26,8 @@ function Persion() {
   const age = 23;
   return <h3>I am a person with age: {age}</h3>;
 }
-function St({name, score}) {
-  console.log(name,score);
+function St({ name, score }) {
+  console.log(name, score);
   return (
     <div className="student">
       <h3>Ok</h3>
@@ -33,10 +37,13 @@ function St({name, score}) {
   );
 }
 
-
-function Device(props){
-  console.log(props)
-  return <h2>This device: {props.name} price: {props.price}</h2>
+function Device(props) {
+  console.log(props);
+  return (
+    <h2>
+      This device: {props.name} price: {props.price}
+    </h2>
+  );
 }
 function Dev() {
   const devStyle = {
