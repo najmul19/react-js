@@ -2,6 +2,7 @@ import C0unter from './Counter'
 
 import './App.css'
 import Team from './Team'
+import Users from './Users'
 
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
     <>
       
       <h1>React Core COncept</h1>
+      <Users></Users>
       <Team></Team>
       <C0unter></C0unter>
       <button onClick={handleClick}>Click Me</button>
