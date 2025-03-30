@@ -1,0 +1,53 @@
+[
+    {
+      "id": 1,
+      "name": "Apple Watch Series 9",
+      "price": 399
+    },
+    {
+      "id": 2,
+      "name": "Samsung Galaxy Watch 6",
+      "price": 299
+    },
+    {
+      "id": 3,
+      "name": "Garmin Venu 2",
+      "price": 349
+    },
+    {
+      "id": 4,
+      "name": "Fitbit Sense 2",
+      "price": 249
+    },
+    {
+      "id": 5,
+      "name": "Google Pixel Watch 2",
+      "price": 349
+    },
+    {
+      "id": 6,
+      "name": "Amazfit GTR 4",
+      "price": 199
+    },
+    {
+      "id": 7,
+      "name": "Huawei Watch GT 4",
+      "price": 229
+    },
+    {
+      "id": 8,
+      "name": "TicWatch Pro 5",
+      "price": 349
+    },
+    {
+      "id": 9,
+      "name": "Garmin Fenix 7",
+      "price": 699
+    },
+    {
+      "id": 10,
+      "name": "OnePlus Watch 2",
+      "price": 249
+    }
+  ]
+  

@@ -9,6 +9,7 @@ const Sunglass = () => {
     const sum = add(f,s); 
     const multi=mul(f,s)
     const vag = divide(f,s);
+    console.log(sum, multi, vag)
     useEffect()
     return (
         <div>
