@@ -1,3 +1,4 @@
+import PropTypes from 'prop-types'
 import './Cart.css'
 
 const Cart = ({cart}) => {
@@ -7,10 +8,14 @@ const Cart = ({cart}) => {
             Cart: {cart.length}
             </h3>
             <div className="cart-container">
-                {cart.map(bot=> <img src={bot.img} alt="" /> )}
+                {cart.map(bot=> <img key={bot.id} src={bot.img} alt="" /> )}
             </div>
         </div>
     );
 };
+
+Cart.prototype={
+    cart: PropTypes.array.isRequired
+}
 
 export default Cart;
