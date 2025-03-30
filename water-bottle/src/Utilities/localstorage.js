@@ -8,3 +8,16 @@ const getStoredCart =()=>{
     return [];
 }
 
+// 3rd
+const saveCartToLS = cart =>{
+    const cartStringify = JSON.stringify(cart);
+    localStorage.setItem('cart',cartStringify);
+    
+}
+// 2nd
+const addToLS = id=>{
+    const cart = getStoredCart();
+    cart.push(id);
+    // save to local Storage
+    saveCartToLS(cart);
+}
