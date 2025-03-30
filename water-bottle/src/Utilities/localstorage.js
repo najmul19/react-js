@@ -21,3 +21,5 @@ const addToLS = id=>{
     // save to local Storage
     saveCartToLS(cart);
 }
+
+export {addToLS, getStoredCart}
