@@ -1,15 +1,14 @@
-
-import './App.css'
+import "./App.css";
+import Blog from "./components/Blogs/Blog";
+import Header from "./components/Header/header";
 
 function App() {
-  
   return (
     <>
-      
-      <h1 className='text-6xl'>React Knowledge Cafe</h1>
-      
+      <Header></Header>
+      <Blog></Blog>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
