@@ -16,9 +16,11 @@ function App() {
     setBookmarks(newBookmarks);
   }
 
-  const handleMarkAdRead = (time)=>{
+  const handleMarkAdRead = (time, id)=>{
     // console.log('marking ad read: ', time)
     setradingTIme(radingTIme+time)
+    const remainingBookmarks = bookmarks.filter(bok=> bok.id!==id);
+    setBookmarks(remainingBookmarks);
   }
 
   return (
