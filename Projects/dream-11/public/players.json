@@ -1,0 +1,83 @@
+[
+    {
+      "img": "https://upload.wikimedia.org/wikipedia/commons/7/7e/Virat_Kohli.jpg",
+      "name": "Virat Kohli",
+      "category": "Batsman",
+      "batting_style": "Right-hand",
+      "country": "India",
+      "price": "$2,000,000"
+    },
+    {
+      "img": "https://upload.wikimedia.org/wikipedia/commons/2/25/Sachin-Tendulkar.jpg",
+      "name": "Sachin Tendulkar",
+      "category": "Batsman",
+      "batting_style": "Right-hand",
+      "country": "India",
+      "price": "$1,800,000"
+    },
+    {
+      "img": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Shakib_Al_Hasan.jpg",
+      "name": "Shakib Al Hasan",
+      "category": "All-Rounder",
+      "batting_style": "Left-hand",
+      "country": "Bangladesh",
+      "price": "$1,500,000"
+    },
+    {
+      "img": "https://upload.wikimedia.org/wikipedia/commons/1/14/Ravichandran_Ashwin.jpg",
+      "name": "Ravichandran Ashwin",
+      "category": "Bowler",
+      "batting_style": "Right-hand",
+      "country": "India",
+      "price": "$1,200,000"
+    },
+    {
+      "img": "https://upload.wikimedia.org/wikipedia/commons/8/8d/Shikhar_Dhawan.jpg",
+      "name": "Shikhar Dhawan",
+      "category": "Batsman",
+      "batting_style": "Left-hand",
+      "country": "India",
+      "price": "$1,300,000"
+    },
+    {
+      "img": "https://upload.wikimedia.org/wikipedia/commons/1/12/Joe_Root.jpg",
+      "name": "Joe Root",
+      "category": "Batsman",
+      "batting_style": "Right-hand",
+      "country": "England",
+      "price": "$1,700,000"
+    },
+    {
+      "img": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Kane_Williamson.jpg",
+      "name": "Kane Williamson",
+      "category": "Batsman",
+      "batting_style": "Right-hand",
+      "country": "New Zealand",
+      "price": "$1,600,000"
+    },
+    {
+      "img": "https://upload.wikimedia.org/wikipedia/commons/2/2c/Steve_Smith.jpg",
+      "name": "Steve Smith",
+      "category": "Batsman",
+      "batting_style": "Right-hand",
+      "country": "Australia",
+      "price": "$1,400,000"
+    },
+    {
+      "img": "https://upload.wikimedia.org/wikipedia/commons/4/4e/AB_de_Villiers.jpg",
+      "name": "AB de Villiers",
+      "category": "Batsman",
+      "batting_style": "Right-hand",
+      "country": "South Africa",
+      "price": "$1,900,000"
+    },
+    {
+      "img": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Chris_Gayle.jpg",
+      "name": "Chris Gayle",
+      "category": "Batsman",
+      "batting_style": "Left-hand",
+      "country": "West Indies",
+      "price": "$1,500,000"
+    }
+  ]
+  
